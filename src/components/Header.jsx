@@ -5,7 +5,7 @@ export default function Header() {
                 <div className="flex items-center gap-2 cursor-pointer group">
                     <img className="w-10 transition-transform duration-300 group-hover:rotate-12" src={`${import.meta.env.BASE_URL}logoUnet.svg`} alt="Logo UNET" />
                     <h3 className="font-bold text-2xl tracking-tight text-gray-800">
-                        <span className="text-blue-600">U</span>-Locate
+                        <span className="text-blue-600">U</span>-Locate GPS
                     </h3>
                 </div>
                 <div className="flex gap-4 items-center">
