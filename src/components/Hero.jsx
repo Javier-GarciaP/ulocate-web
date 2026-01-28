@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <>
             <div className="flex flex-row h-[calc(100vh-4rem)] items-center">
-                <div className="flex flex-1 flex-col justify-center items-start gap-y-6 pl-10 z-10">
+                <div className="flex flex-1/2 flex-col justify-center items-start gap-y-6 pl-10 z-10">
                     <motion.h1
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
