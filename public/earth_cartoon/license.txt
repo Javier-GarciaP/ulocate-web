@@ -1,0 +1,11 @@
+Model Information:
+* title:	Earth cartoon
+* source:	https://sketchfab.com/3d-models/earth-cartoon-8980e2238c534516bc2345703cd8eae4
+* author:	onirix (https://sketchfab.com/onirix)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Earth cartoon" (https://sketchfab.com/3d-models/earth-cartoon-8980e2238c534516bc2345703cd8eae4) by onirix (https://sketchfab.com/onirix) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
