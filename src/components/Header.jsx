@@ -3,7 +3,7 @@ export default function Header() {
         <>
             <div className="sticky top-0 z-50 flex h-16 justify-between items-center py-2 px-6 bg-white/70 backdrop-blur-md border-b border-white/20 shadow-sm transition-all duration-300">
                 <div className="flex items-center gap-2 cursor-pointer group">
-                    <img className="w-10 transition-transform duration-300 group-hover:rotate-12" src="/logoUnet.svg" alt="Logo UNET" />
+                    <img className="w-10 transition-transform duration-300 group-hover:rotate-12" src={`${import.meta.env.BASE_URL}logoUnet.svg`} alt="Logo UNET" />
                     <h3 className="font-bold text-2xl tracking-tight text-gray-800">
                         <span className="text-blue-600">U</span>-Locate
                     </h3>

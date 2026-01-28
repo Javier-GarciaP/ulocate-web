@@ -4,9 +4,9 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { useGLTF, OrbitControls, Environment, ContactShadows } from '@react-three/drei';
 
 function EarthModel(props) {
-    // Asegúrate de que la ruta sea correcta. Vite sirve 'public' en la raíz '/'.
-    // Si tu archivo está en public/earth/scene.gltf, la ruta es "/earth/scene.gltf"
-    const { scene } = useGLTF('/earth/scene.gltf');
+    // Usar import.meta.env.BASE_URL hace que funcione en dev y en producción
+    // (por ejemplo cuando `base` está configurado a '/unet-gps/').
+    const { scene } = useGLTF(`${import.meta.env.BASE_URL}earth/scene.gltf`);
     const ref = useRef();
 
     useFrame((state) => {
