@@ -1,5 +1,10 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Stats from "./components/Stats"
+import Features from "./components/Features"
+import HowItWorks from "./components/HowItWorks"
+import CTA from "./components/CTA"
+import Footer from "./components/Footer"
 import Registro from './components/Registro';
 function App() {
   return (
@@ -19,8 +24,12 @@ function App() {
         />
         <div className="relative flex flex-col z-10">
           <Header />
-          <Hero /> 
-          
+          <Hero />
+          <Stats />
+          <Features />
+          <HowItWorks />
+          <CTA />
+          <Footer />
         </div>
 
       </div>
