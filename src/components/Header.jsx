@@ -1,4 +1,7 @@
+import { useState } from 'react';
+import Registro from './Registro';
 export default function Header() {
+    const [abrirRegistro, setAbrirRegistro] = useState(false);
     return (
         <>
             <div className="sticky top-0 z-50 flex h-16 justify-between items-center py-2 px-6 bg-white/70 backdrop-blur-md border-b border-white/20 shadow-sm transition-all duration-300">
@@ -12,11 +15,14 @@ export default function Header() {
                     <button className="font-semibold text-gray-600 hover:text-blue-600 transition-colors duration-300 text-sm">
                         Iniciar Sesión
                     </button>
-                    <button className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-bold py-2 px-6 rounded-full shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:-translate-y-0.5 transition-all duration-300 text-sm">
+                    <button 
+                    onClick={() => setAbrirRegistro(true)}
+                    className="bg-linear-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-bold py-2 px-6 rounded-full shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:-translate-y-0.5 transition-all duration-300 text-sm">
                         Registrarse
                     </button>
                 </div>
             </div>
+        {abrirRegistro && <Registro alCerrar={() => setAbrirRegistro(false)} />}
         </>
     )
 }

@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
-
+import Registro from './components/Registro';
 function App() {
   return (
     <>
@@ -19,7 +19,8 @@ function App() {
         />
         <div className="relative flex flex-col z-10">
           <Header />
-          <Hero />
+          <Hero /> 
+          
         </div>
 
       </div>
